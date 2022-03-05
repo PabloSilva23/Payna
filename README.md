@@ -1,6 +1,6 @@
 <h1 align="center">Payna</h1>
 
-<p align="center">Payna é um site com foco em finanças.</p>
+<p align="center">Payna é uma landing page com foco em finanças.</p>
 
 <p align="center">
   <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,7 +17,7 @@
 
 ### Descrição 📄
 
-Payna é um site com foco em finanças para pessoas que buscam cuidar do seu dinheiro.
+Payna é uma landing page com foco em finanças para pessoas que buscam cuidar do seu dinheiro.
 
 Para ver o projeto [clique aqui](https://pablosilva23.github.io/Payna/).
 
