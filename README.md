@@ -57,8 +57,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
  </div>
  <h3 align='center'>Tablet 💻</h3>
    <div align="center">
-   <img src="https://user-images.githubusercontent.com/87915108/156865744-e5a0053a-17c1-4f12-8902-44ef1b1002cc.png" width="600px"></img>
+   <img src="https://user-images.githubusercontent.com/87915108/156896605-7d489b4b-2981-49aa-936d-63a3a87533ea.png" width="600px"></img>
   </div>
+
    <h3 align='center'>Notebook 💻</h3>
    <div align="center">
    <img src="https://user-images.githubusercontent.com/87915108/156865732-78fbd6e8-3415-4ac7-88a0-52c14410868e.png" width="600px"></img>
