@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, DM Sans, cursive;
+}
+
+:root {
+    --hue: 215;
+    --color-text: 5;
+    --color-principal: white;
+    --color-btn: hsl(var(--hue) 100% 56%);
+    --color-btn-hover: hsl(var(--hue) 20% 86%);
+    --color-text-title: hsl(var(--color-text) 100% 4%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav .logo {
+    display: flex;
+    width: 9rem;
+    justify-content: space-around;
+    margin: 2.5rem 1.5rem;
+}
+nav ul {
+    list-style: none;
+    display: none;
+}
+
+nav ul li {
+    padding: 1rem;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+nav ul li:hover {
+    color: var(--color-btn);
+}
+
+nav .sign {
+    display: none;
+}
+
+input {
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+}
+
+.banner {
+    margin-left: 1.5rem;
+}
+
+main .text-banner {
+    width: 19.93rem;
+}
+
+main .text-banner h1 {
+    font-size: 2.375rem;
+}
+
+main .text-banner p {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+main .text-banner input {
+    width: 11.25rem;
+    height: 3rem;
+    
+}
+
+main input {
+    background-color: var(--color-btn);
+    color: white;
+    border-radius: 3.125rem;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+main .image-banner {
+    display: none;
+}
+
+main .container-2 {
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+}
+
+main .container-2 .credits {
+    margin: 1rem 0;
+}
+
+main .container-2 img {
+    margin-right: 1rem;
+    margin-top: 1rem;
+    width: 5rem;
+}
+
+main section .service-princ .text-service {
+    text-align: center;
+    margin: auto;
+    margin-top: 3rem;
+    width: 21.81rem;
+    line-height: 2.5rem;
+}
+
+main section .service-princ .text-service h3 {
+    color: #F75C4E;
+}
+
+main section .service-princ .text-service h1 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+main section .service-princ .text-service p {
+    text-align: center;
+}
+
+main section .service-princ .services .card-service {
+    display: grid;
+    grid-template-columns: 4rem 1fr;
+    gap: 1rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 90%;
+}
+
+main section .service-princ .services .card-service .input-icon {
+    height: 3.75rem;
+    width: 3.75rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+main section .service-princ .services .card-service:nth-child(1) .input-icon {
+    background-color: var(--color-btn);
+}
+
+main section .service-princ .services .card-service:nth-child(2) .input-icon {
+    background-color: #191046;
+}
+
+main section .service-princ .services .card-service:nth-child(3) .input-icon {
+    background-color: #FF1FB3;
+}
+
+main section .service-princ .services .card-service:nth-child(4) .input-icon {
+    background-color: var(--color-text-title);
+}
+
+main section .service-princ .services .card-service:nth-child(5) .input-icon {
+    background-color: #F7954E;
+}
+
+main section .service-princ .services .card-service:nth-child(6) .input-icon {
+    background-color: #5C4EF7;
+}
+
+main section .service-princ .services .card-service:first-child {
+    margin-top: 3.125rem;
+}
+
+main section .service-princ .services .card-service .input-icon i {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main section .service-princ .services .card-service .text-card p {
+    margin-top: .75rem;
+}
+
+main section .about iframe {
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+main section .about .text-about {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+main section .about .text-about h3 {
+    font-size: 1rem;
+    color: #F75C4E;
+}
+
+main section .about .text-about h1 {
+    margin-bottom: 1.25rem;
+}
+
+main section .about .text-about p {
+    width: 20.81rem;
+    margin: auto;
+}
+
+main section .about .text-about input {
+    display: block;
+    margin: auto;
+    width: 18.68rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+main section .about .text-about input[type="text"]{
+    background-color: #F5F6FB;
+    color: black;
+    margin-top: 1rem;
+    font-weight: 400;
+    padding: 0 2rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    nav .sign {
+        display: block;
+    }
+    nav .sign input {
+        background-color: #F5F6FB;
+        width: 9.375rem;
+        height: 3rem;
+        border-radius: 3.125rem;
+        border: none;
+        margin-right: 2.5rem;
+    }
+
+    .banner .text-banner {
+        margin: auto;
+        margin-top: 6.25rem;
+        margin-bottom: 4.375rem;
+        text-align: center;
+        width: 28.625rem;
+    }
+
+    .banner .text-banner h1 {
+        font-size: 3.4375rem;
+    }
+
+    .container-2 {
+        text-align: center;
+    }
+
+    .container-2 .logos img {
+        margin: 0 2rem;
+        margin-top: 1.875rem;
+    }
+    
+    main section .service-princ .text-service {
+        width: 25.0625rem;
+    }
+    
+    main section .service-princ .text-service h1 {
+        font-size: 2.25rem;
+    }
+    
+    main section .service-princ .services {
+        display: grid;
+        gap: 2rem;
+        margin: auto;
+        width: 45.625rem;
+        grid-template-columns: 21.75rem 21.75rem;
+    }
+
+    main section .about iframe {
+        width: 41.95rem;
+        height: 26.19rem;
+    }
+    
+    main section .about .text-about h1 {
+        font-size: 2.25rem;
+        margin: .8125rem;
+    }
+
+    main section .about .text-about p {
+        width: 24.125rem;
+    }
+
+    main section .about .text-about .newsletter {
+        position: relative;
+        height: 4rem;
+        width: 100%;
+        top: 2rem;
+    }
+
+    main section .about .text-about .newsletter input {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    main section .about .text-about .newsletter input:nth-child(1) {
+        width: 18.68rem;
+        transform: translateX(-70%);
+        outline: none;
+        margin-top: 0;
+    }
+
+    main section .about .text-about .newsletter input:nth-child(2) {
+        width: 11.25rem;
+        margin: 0;
+        transform: translateX(30%);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 0 1.75rem;
+    }
+
+    nav ul .sign input {
+        width: 9.375rem;
+        height: 1.5rem;
+    }
+
+    .banner {
+        width: 90%;
+        margin: auto;
+    }
+
+    .banner .container-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 97%;
+    }
+
+    .banner .text-banner {
+        margin: 0;
+        text-align: left;
+    }
+
+    .banner .text-banner h1 {
+        font-size: 3.4375rem;
+    }
+    
+    main .container-2 {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+        text-align: left;
+    }
+
+    .banner .image-banner {
+        display: block;
+    }
+
+    .banner .image-banner img {
+        width: 30.75rem;
+    }
+
+    .banner .image-banner .card-princ {
+        display: flex;
+        flex-direction: column;
+        width: 13.31rem;
+        height: 9.68rem;
+        position: absolute;
+        border-radius: 1rem;
+        box-shadow: -7px 9px 18px rgba(0, 0, 0, 0.05);
+        background-color: white;
+    }
+
+    .banner .image-banner .card-princ.analytic {
+        top: 15.065rem;
+        right: 30rem;
+    }
+
+    .banner .image-banner .card-princ.work {
+        top: 10rem;
+        right: 0;
+        height: 4.125rem;
+    }
+
+    .banner .image-banner .card-princ.work .card.work {
+        padding-top: .8rem;
+    }
+
+    .banner .image-banner .card-princ .card {
+        display: flex;
+        width: 100%;
+        padding-top: 1rem;
+    }
+
+    .banner .image-banner .card-princ .card .input-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        background-color: #191046;
+        position: relative;
+        border-radius: 50%;
+        margin: 0 1rem;
+    }
+
+    .banner .image-banner .card-princ .card .input-icon i {
+        color: white;
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .banner .image-banner .card-princ .card .text-card p:nth-child(1) {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .banner .image-banner .card-princ .card .text-card p:nth-child(2) {
+        font-size: .875rem;
+        font-weight: 300;
+    }
+
+    .banner .image-banner .card-princ .grafic {
+        display: flex;
+        margin-top: 1rem;
+        align-self: center;
+        align-items: baseline;
+    }
+
+    .banner .image-banner .card-princ .grafic .line {
+        width: .625rem;
+        height: 3rem;
+        margin: 0 .3rem;
+        border-radius: 3rem;
+    }
+    
+    .banner .image-banner .card-princ .grafic .line:nth-child(-n + 7) {
+        background-color: #EAECF2;
+    }
+
+    .banner .image-banner .card-princ .grafic .line:nth-child(n + 8) {
+        background-color: #F75C4E;
+    }
+
+    .banner .image-banner .card-princ .grafic .line:last-child {
+        background-color: #1F7CFF;
+        height: 3.93rem;
+    }
+
+    .banner .image-banner .card-princ .grafic .line:nth-child(1) {
+        height: 2.31rem;
+    }
+
+    .banner .image-banner .card-princ .grafic .line:nth-child(2) {
+        height: 1.375rem;
+    }
+
+    .banner .image-banner .card-princ .grafic .line:nth-child(3) {
+        height: 1.937rem;
+    }
+
+    .banner .image-banner .card-princ .grafic .line:nth-child(4) {
+        height: 1rem;
+    }
+
+    .banner .image-banner .card-princ .grafic .line:nth-child(5) {
+        height: 1.5rem;
+    }
+
+    .banner .image-banner .card-princ .grafic .line:nth-child(6) {
+        height: 3.93rem;
+    }
+
+    .banner .image-banner .card-princ .grafic .line:nth-child(8) {
+        height: 1.5rem;
+    }
+
+    .credits {
+        width: 11rem;
+    }
+
+    main section .service-princ .services {
+        grid-template-columns: 24.75rem 24.75rem 24.75rem;
+        width: 88%;
+        gap: 0rem;
+        margin: 1rem auto;
+    }
+
+    .about {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        width: 100%;
+    }
+
+    main section .about iframe {
+        margin: 2rem;
+        width: 25rem;
+        height: 18rem;
+    }
+
+}
