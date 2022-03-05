@@ -1,6 +1,6 @@
 <h1 align="center">Payna</h1>
 
-<p align="center">Insurance é um site com foco em vendas de seguro de vida.</p>
+<p align="center">Payna é um site com foco em finanças.</p>
 
 <p align="center">
   <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -17,9 +17,9 @@
 
 ### Descrição 📄
 
-Insurance é um site com foco em fazer seguro de vida para pessoas que se preocupam em se assegurar caso aconteça um imprevisto com sua própria vida.
+Payna é um site com foco em finanças para pessoas que buscam cuidar do seu dinheiro.
 
-Para ver o projeto [clique aqui]https://pablosilva23.github.io/Payna/).
+Para ver o projeto [clique aqui](https://pablosilva23.github.io/Payna/).
 
 ### Objetivo 🎯
 
