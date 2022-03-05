@@ -19,7 +19,7 @@
 
 Payna é uma landing page com foco em finanças para pessoas que buscam cuidar do seu dinheiro.
 
-Para ver o projeto [clique aqui](https://pablosilva23.github.io/Payna/).
+Para ver o projeto [clique aqui](https://xenodochial-colden-86e154.netlify.app/).
 
 ### Objetivo 🎯
 
