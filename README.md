@@ -19,7 +19,7 @@
 
 Insurance é um site com foco em fazer seguro de vida para pessoas que se preocupam em se assegurar caso aconteça um imprevisto com sua própria vida.
 
-Para ver o projeto [clique aqui](https://pablosilva23.github.io/site-insurance/).
+Para ver o projeto [clique aqui]https://pablosilva23.github.io/Payna/).
 
 ### Objetivo 🎯
 
@@ -80,7 +80,7 @@ Antes de começar, você vai precisar ter instalado em usa máquina as seguintes
 ```bash
 
 #Clone este repositório
-$ git clone <https://github.com/PabloSilva23/site-insurance>
+$ git clone <https://pablosilva23.github.io/Payna/>
 
 #Acesse a pasta do projeto no terminal/cmd
 $ cd Insurance
