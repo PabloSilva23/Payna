@@ -11,8 +11,7 @@
 
 <br>
 
-![insurance](https://user-images.githubusercontent.com/87915108/154224713-2d6b6898-ddc3-491e-83f2-7e8976787b36.gif)
-
+![payna](https://user-images.githubusercontent.com/87915108/156865677-0b1df4a8-9237-422e-8a29-eee17be38f91.gif)
 
 <h1 id="sobre">Sobre 📖</h1>
 
@@ -54,13 +53,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
  
    <h3 align="center">Mobile 📱</h3>
  <div align="center">
-   <img src="https://user-images.githubusercontent.com/87915108/154840296-fb01a75e-3674-4902-a43b-1560a19f9cee.png" width="200px"></img>
+   <img src="https://user-images.githubusercontent.com/87915108/156865723-4cd7262e-d5c5-4d9b-b8a8-d4a14c86f0e9.png" width="200px"></img>
  </div>
+ <h3 align='center'>Tablet 💻</h3>
+   <div align="center">
+   <img src="https://user-images.githubusercontent.com/87915108/156865744-e5a0053a-17c1-4f12-8902-44ef1b1002cc.png" width="600px"></img>
+  </div>
    <h3 align='center'>Notebook 💻</h3>
    <div align="center">
-   <img src="https://user-images.githubusercontent.com/87915108/154840310-dd1dc5c0-07b9-49f9-8191-43c93989a01e.png" width="600px"></img>
+   <img src="https://user-images.githubusercontent.com/87915108/156865732-78fbd6e8-3415-4ac7-88a0-52c14410868e.png" width="600px"></img>
   </div>
- 
+
 </details>
 
 ## Layout 🖼️
