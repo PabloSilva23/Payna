@@ -44,7 +44,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <h2 id="funcionalidades">Funcionalidade 🛠️</h2>
 
-- Nenhuma.
+- Dark mode.
 
 <h2 id="responsividade">Responsividade 	📱	🖥️</h2>
 
